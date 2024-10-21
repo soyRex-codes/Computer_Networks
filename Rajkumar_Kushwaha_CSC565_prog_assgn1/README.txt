@@ -1,5 +1,3 @@
-Rajkumar_Kushwaha and rk33s@missouristate.edu
-Class: CSC565, date: 10/20/2024 , Assignment_name: prog ass1
 NOTE: Names and descriptions of all files submitted, with Detailed instructions for compiling and running the client and server
 programs are given below.
 
@@ -31,7 +29,7 @@ On another terminal, Run the client, run:
 python TCPClient.py <LOCALHOST> <loan_amount> <years> <interest_rate>
 
 //COMMENT:  I ran both client and server on same machine so, i used localhost: python TCPClient.py 127.0.0.1 1000 30 4.0
-//COMMENT:  Note to grader: if you ran both client and server on same machine, use YOUR localhost
+//COMMENT:  Note: if you ran both client and server on same machine, use YOUR localhost
 where as 127.0.0.1 is localhost/loopback IP address FOR MY MACHINE.
 
 ////////////////////////////////////////////////////
