@@ -1,4 +1,4 @@
-NOTE: Names and descriptions of all files submitted, with Detailed instructions for compiling and running the client and server
+NOTE: Names and descriptions of all files, with Detailed instructions for compiling and running the client and server
 programs are given below.
 
 
