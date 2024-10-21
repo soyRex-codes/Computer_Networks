@@ -1,0 +1,17 @@
+//sample output for TCP: Monthly payment: $77.71, Total payment: $27973.99
+//TCP client:
+PS C:\Users\rajku\OneDrive\Desktop\prog ass1  565> python TCPClient.py 127.0.0.1 15000 30 4.69
+Received from server: Monthly payment: $77.71, Total payment: $27973.99
+
+TCP server: 
+PS C:\Users\rajku\OneDrive\Desktop\prog ass1  565> & C:/Python312/python.exe "c:/Users/rajku/OneDrive/Desktop/prog ass1  565/TCPClient.py"
+Usage: Cal <server> <loan_amount> <years> <interest_rate>
+PS C:\Users\rajku\OneDrive\Desktop\prog ass1  565> & C:/Python312/python.exe "c:/Users/rajku/OneDrive/Desktop/prog ass1  565/TCPServer.py"
+TCP Server listening on port 13000...
+Connected by ('127.0.0.1', 59642)
+
+
+//sample output for UDP: Monthly payment: $777.06, Total payment: $279739.94
+//in detail:
+PS C:\Users\rajku\OneDrive\Desktop\prog ass1  565> python UDPClient.py 127.0.0.1 150000 30 4.69
+Received from server: Monthly payment: $777.06, Total payment: $279739.94
